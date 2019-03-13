@@ -9,8 +9,13 @@
 import Foundation
 
 class Puppy {
-    var name: String?
-    var dob: Int64 = 0
+    var Name: String?
+    var Dob: Int64 = 0
     var dam: Int64 = 0
     var sire: Int64 = 0
+    
+    init (name: String, dob: Int64) {
+        self.Name = name
+        self.Dob = dob
+    }
 }
