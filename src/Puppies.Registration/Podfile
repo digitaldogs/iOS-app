@@ -6,6 +6,7 @@ target 'Puppies.Registration' do
   use_frameworks!
 
   # Pods for Puppies.Registration
-  pod 'web3.swift'
+  #pod 'web3.swift'
+  pod 'web3swift.pod'
 
 end

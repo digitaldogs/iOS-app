@@ -1,0 +1,6 @@
+framework module Pods_Puppies_Registration {
+  umbrella header "Pods-Puppies.Registration-umbrella.h"
+
+  export *
+  module * { export * }
+}
