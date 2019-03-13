@@ -12,6 +12,8 @@
 		4617B8A7221D196D00B9BB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4617B8A5221D196D00B9BB78 /* Main.storyboard */; };
 		4617B8A9221D196F00B9BB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4617B8A8221D196F00B9BB78 /* Assets.xcassets */; };
 		4617B8AC221D196F00B9BB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4617B8AA221D196F00B9BB78 /* LaunchScreen.storyboard */; };
+		46815256223925C500D28E2C /* PuppiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46815255223925C500D28E2C /* PuppiesViewController.swift */; };
+		4681525A223926CC00D28E2C /* Puppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46815259223926CC00D28E2C /* Puppy.swift */; };
 		FA7DF3DE72F6EEB85CC72659 /* Pods_Puppies_Registration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221E2E2C32971B151BC80247 /* Pods_Puppies_Registration.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		4617B8A8221D196F00B9BB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4617B8AB221D196F00B9BB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4617B8AD221D196F00B9BB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46815255223925C500D28E2C /* PuppiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppiesViewController.swift; sourceTree = "<group>"; };
+		46815259223926CC00D28E2C /* Puppy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puppy.swift; sourceTree = "<group>"; };
 		984F2AAF3F4EB90726180089 /* Pods-Puppies.Registration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puppies.Registration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Puppies.Registration/Pods-Puppies.Registration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +56,8 @@
 		4617B895221D196D00B9BB78 = {
 			isa = PBXGroup;
 			children = (
+				468152582239268F00D28E2C /* ViewControllers */,
+				468152572239268500D28E2C /* Models */,
 				4617B8A0221D196D00B9BB78 /* Puppies.Registration */,
 				4617B89F221D196D00B9BB78 /* Products */,
 				21179E20E639718132A5D549 /* Pods */,
@@ -78,6 +84,22 @@
 				4617B8AD221D196F00B9BB78 /* Info.plist */,
 			);
 			path = Puppies.Registration;
+			sourceTree = "<group>";
+		};
+		468152572239268500D28E2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46815259223926CC00D28E2C /* Puppy.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		468152582239268F00D28E2C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46815255223925C500D28E2C /* PuppiesViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		ADBA6017838A82C739953620 /* Frameworks */ = {
@@ -212,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4681525A223926CC00D28E2C /* Puppy.swift in Sources */,
 				4617B8A4221D196D00B9BB78 /* ViewController.swift in Sources */,
+				46815256223925C500D28E2C /* PuppiesViewController.swift in Sources */,
 				4617B8A2221D196D00B9BB78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
