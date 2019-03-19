@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F20825C562BED09109FF759EE19A8DF8"
+               BlueprintIdentifier = "DBE55CB660308F713E2A213DA747DF75"
                BuildableName = "scrypt.framework"
                BlueprintName = "scrypt.c"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F20825C562BED09109FF759EE19A8DF8"
+            BlueprintIdentifier = "DBE55CB660308F713E2A213DA747DF75"
             BuildableName = "scrypt.framework"
             BlueprintName = "scrypt.c"
             ReferencedContainer = "container:Pods.xcodeproj">

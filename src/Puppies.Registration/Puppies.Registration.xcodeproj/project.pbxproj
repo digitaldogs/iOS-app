@@ -76,8 +76,8 @@
 		4617B8A0221D196D00B9BB78 /* Puppies.Registration */ = {
 			isa = PBXGroup;
 			children = (
-				4617B8A1221D196D00B9BB78 /* AppDelegate.swift */,
 				4617B8A3221D196D00B9BB78 /* ViewController.swift */,
+				4617B8A1221D196D00B9BB78 /* AppDelegate.swift */,
 				4617B8A5221D196D00B9BB78 /* Main.storyboard */,
 				4617B8A8221D196F00B9BB78 /* Assets.xcassets */,
 				4617B8AA221D196F00B9BB78 /* LaunchScreen.storyboard */,
@@ -185,7 +185,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Puppies.Registration/Pods-Puppies.Registration-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Puppies.Registration/Pods-Puppies.Registration-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
@@ -206,7 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Puppies.Registration/Pods-Puppies.Registration-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Puppies.Registration/Pods-Puppies.Registration-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6D12947FECCA764070CB9D6 /* [CP] Check Pods Manifest.lock */ = {

@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     //@IBOutlet var labMembershipNumber: UILabel!
 
+    @IBOutlet weak var labTitle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        labTitle.text = "Enter a new Beagle"
     }
 }
