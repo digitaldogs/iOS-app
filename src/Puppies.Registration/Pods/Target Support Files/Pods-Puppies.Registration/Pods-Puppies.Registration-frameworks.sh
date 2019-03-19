@@ -153,18 +153,22 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/keccak.c/keccak.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/scrypt.c/scrypt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/secp256k1.c/secp256k1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/web3swift.pod/web3swift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/keccak.c/keccak.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/scrypt.c/scrypt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/secp256k1.c/secp256k1.framework"

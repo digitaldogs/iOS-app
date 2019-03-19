@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import SwiftyJSON
+import Alamofire
 
 class ViewController: UIViewController {
-
-    //@IBOutlet var labMembershipNumber: UILabel!
 
     @IBOutlet weak var labTitle: UILabel!
     
@@ -18,6 +18,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        labTitle.text = "Enter a new Beagle"
+        Alamofire.request("https://digitaldogs.io/dogs")
+            .validate()
+            .responseJSON { response in
+                
+                guard response.result.isSuccess else {
+                    print("Error while fetching api")
+                    return
+                }
+                
+                if((response.result.value) != nil) {
+                    let response : JSON = JSON(response.result.value!)
+                    self.labTitle.text = response["0"].stringValue
+                    //print(response)
+                }
+        }
     }
 }

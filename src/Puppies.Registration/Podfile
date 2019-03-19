@@ -8,5 +8,7 @@ target 'Puppies.Registration' do
   # Pods for Puppies.Registration
   #pod 'web3.swift'
   pod 'web3swift.pod'
+  pod 'Alamofire', '~> 4.7.0'
+  pod 'SwiftyJSON', '~> 4.0.0'
 
 end
